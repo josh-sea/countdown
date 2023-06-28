@@ -74,17 +74,21 @@ const CountdownTimer = () => {
 
   return (
     <Segment
+      textAlign="center"
+      basic
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
-        width: "100vw",
+        height: "100%",
+        width: "100%",
         backgroundColor: "rgba(0,0,0,0)",
         flexDirection: "column",
+        marginTop: 0,
+        paddingTop: 0,
       }}
     >
-      <Header as="h2" style={{ color: "white" }}>
+      <Header as="h2" style={{ color: "white", textalign: "center" }}>
         {event}
       </Header>
       <Header as="h3" style={{ color: "white" }}>

@@ -1,0 +1,25 @@
+#scaled-frame {
+    width: 1200;
+    height: 1000;
+    border: 0px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    #scaled-frame {
+        zoom: .667;
+        -moz-transform: scale(.667);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(.667);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(.667);
+        -webkit-transform-origin: 0 0;
+    }
+  }
+  
+/* 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #scaled-frame {
+        zoom: 1;
+    }
+} */
