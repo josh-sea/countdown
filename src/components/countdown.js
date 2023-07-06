@@ -17,7 +17,7 @@ const CountdownTimer = () => {
       },
       {
         event: "Dr. Love's & Amelia Rose's Birthday!!!!!",
-        date: new Date("July 25, 2023 8:00:00 EDT").getTime(),
+        date: new Date("July 23, 2023 8:00:00 EDT").getTime(),
       },
       {
         event: "Josh's Birthday!!!!",
